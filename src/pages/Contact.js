@@ -52,7 +52,7 @@ const Contact = () => {
             return;
         }
 
-        const url = "http://localhost:8080/api/create/contact"; // Correct endpoint path
+        const url = "http://localhost:5000/api/create/contact"; // Correct endpoint path
         axios.post(url, storeInput)
             .then((response) => {
                 console.log(storeInput);
@@ -77,7 +77,7 @@ const Contact = () => {
                 <div className="breadcrumbs aos-init aos-animate" >
                     <div className="container">
                         <h2>Contact Us</h2>
-                        <p>Get in Touch: Connect with Vcentry Technology for Inquiries and Assistance.</p>
+                        <p>Get in Touch: Connect with Slak Technology for Inquiries and Assistance.</p>
                     </div>
                 </div><br></br>
 
@@ -92,7 +92,7 @@ const Contact = () => {
                                     <div className="address">
                                         <i className="bi bi-geo-alt"></i>
                                         <h4>Location:</h4>
-                                        <p>Near Guindy Railway Station, Sri Balaji Towers, Guindy Institutional Area, SIDCO Industrial Estate, Guindy, Tamil Nadu 600032</p>
+                                        <p>Near Guindy Railway Station, Guindy Institutional Area, SIDCO Industrial Estate, Guindy, Tamil Nadu 600032</p>
                                     </div>
 
                                     <div className="email">
@@ -151,7 +151,7 @@ const Contact = () => {
 
                 </section>
                 <div >
-                    <iframe title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31098.602336953376!2d80.204074116333!3d13.014945247817298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267f033b9b33f%3A0x3223d8a79e8a981f!2sVCENTRY!5e0!3m2!1sen!2sin!4v1707564318311!5m2!1sen!2sin" width="100%" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31099.633113045697!2d80.19907265862041!3d13.006726602893641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267709aa40a7d%3A0xca348695fc512750!2sGuindy%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1711094658116!5m2!1sen!2sin" width="100%" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 {/* <!-- End Contact Section --> */}
             </main><br></br>

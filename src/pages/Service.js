@@ -16,7 +16,7 @@ const Service = () => {
 
                     <div className="container">
                         <h2>Services</h2>
-                        <p>Empowering Success: Our Comprehensive Range of Services at Vcentry Technology. </p>
+                        <p>Empowering Success: Our Comprehensive Range of Services at Slak Technology. </p>
                     </div>
                 </div><br></br><br></br>
                 {/* <!-- End Breadcrumbs --> */}
@@ -72,9 +72,9 @@ const Service = () => {
                         <div className="row">
                             <div className="col-lg-4 d-flex align-items-stretch">
                                 <div className="content">
-                                    <h3>Why Choose Vcentry?</h3>
+                                    <h3>Why Choose Slak Technologies?</h3>
                                     <p>
-                                        Choose Vcentry Technology for skill enhancement, where we merge theory with real-world application, guided by seasoned industry professionals. Our approach ensures you learn best practices and gain practical insights, fostering a dynamic and enriching learning experience tailored to the demands of the industry. Elevate your skills with us, gaining the confidence and expertise to thrive in the competitive professional landscape.
+                                        Choose Slak Technology for skill enhancement, where we merge theory with real-world application, guided by seasoned industry professionals. Our approach ensures you learn best practices and gain practical insights, fostering a dynamic and enriching learning experience tailored to the demands of the industry. Elevate your skills with us, gaining the confidence and expertise to thrive in the competitive professional landscape.
                                     </p>
                                     <div className="text-center">
                                         <Link to="/skill"><button className="more-btn btn bt-outline-light">Learn More <i className="bx bx-chevron-right"></i></button></Link>

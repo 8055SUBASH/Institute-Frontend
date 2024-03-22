@@ -29,7 +29,7 @@ const Courses = () => {
 
     const loadDetails = () => {
 
-        const url ="http://localhost:8080/api/list/courses";
+        const url ="http://localhost:5000/api/list/courses";
 
         axios.get(url)
         .then((response) => {
@@ -65,7 +65,7 @@ const Courses = () => {
                     <div className="container">
                         <h2>Courses</h2>
                         <p>
-                            Explore Cutting-edge Courses at Vcentry Technology. Elevate your skills with our diverse range of tech courses. Unlock opportunities for growth and innovation. Join Vcentry Technology for a transformative learning experience.</p>
+                            Explore Cutting-edge Courses at Slak Technology. Elevate your skills with our diverse range of tech courses. Unlock opportunities for growth and innovation. Join Slak Technology for a transformative learning experience.</p>
                     </div>
                 </div>
                 {/* <!-- End Breadcrumbs --></main> */}

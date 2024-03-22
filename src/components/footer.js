@@ -15,8 +15,6 @@ const FooterComponent = () => {
                                 <p>
                                     126, Race View Tower,<br></br>
                                     Manikam lane,<br></br> 
-                                    opposite to Guindy Railway Station,<br></br>
-                                    near Subway,<br></br>
                                     Guindy Institutional Area,<br></br>
                                     SIDCO Industrial Estate,<br></br>
                                     Guindy, Tamil Nadu<br></br><br></br>
@@ -62,7 +60,7 @@ const FooterComponent = () => {
 
                     <div className="me-md-auto text-center text-md-start">
                         <div className="copyright">
-                            <h5>&copy;  2020  <strong><span>Copyright: </span></strong>Vcentry Technologies</h5>
+                            <h5>&copy;  2020  <strong><span>Copyright: </span></strong>Slak Technologies</h5>
                         </div>
                     </div>
                     <div className="social-links text-center text-md-right pt-3 pt-md-0">

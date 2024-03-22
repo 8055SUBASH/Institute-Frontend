@@ -8,7 +8,7 @@ const AppNavbar = () => {
       <Navbar expand="lg" fixed="top" bg="dark" variant="dark">
         <Navbar.Brand className="mr-auto">
           <Link to="/">
-            <img alt="Logo" src={require("../img/Logo.png")} width={300} height={50} className="d-inline-block align-top logo-alignment" />
+            <img alt="Logo" src={require("../img/Logo.png")} width={70} height={50} className="d-inline-block align-top logo-alignment" />
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ backgroundColor: "#EE633A", marginRight: '3%' }} />

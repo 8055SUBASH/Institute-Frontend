@@ -23,7 +23,7 @@ const Home = () => {
 
     const loadTrend = () => {
 
-        const url = "http://localhost:8080/api/list/trend";
+        const url = "http://localhost:5000/api/list/trend";
 
         axios.get(url)
             .then((response) => {
@@ -70,7 +70,7 @@ const Home = () => {
 
             <section id="hero" className="d-flex justify-content-center align-items-center">
                 <div className="container position-relative aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-                    <h1>Vcentry Technologies</h1>
+                    <h1>Slak Technologies</h1>
                     <h2>Hands On Training Institute</h2>
                     <Link to="/contact">
                         <button className="btn-get-started btn btn-outline-primary"  ><strong>Contact Us  </strong> <i class="fa-solid fa-circle-arrow-right" style={{ color: "#ffffff", fontSize: "15px" }}></i></button>
@@ -91,9 +91,9 @@ const Home = () => {
                                 <img src={require("../img/about.jpg")} className="img-fluid" alt="" />
                             </div>
                             <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-                                <h3>Vcentry has been established with the objective of offering superior IT training and consulting services.</h3>
+                                <h3>Slak has been established with the objective of offering superior IT training and consulting services.</h3>
                                 <p className="fst-italic">
-                                    Vcentry provides an integrated IT training and consulting services, catering to all the human resource and training requirements of a corporate since 2014. Vcentry focuses on providing-
+                                    Slak provides an integrated IT training and consulting services, catering to all the human resource and training requirements of a corporate since 2014. Slak focuses on providing-
                                 </p>
                                 <ul>
                                     <li><i className="bi bi-check-circle"></i> Comprehensive Talent management solutions to the customers.</li>

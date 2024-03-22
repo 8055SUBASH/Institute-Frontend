@@ -13,7 +13,7 @@ const ReviewForm = () => {
     }, []);
 
     const showForm = () => {
-        const url = "http://localhost:8080/api/read/review";
+        const url = "http://localhost:5000/api/read/review";
 
         axios.get(url)
             .then((response) => {
@@ -26,7 +26,7 @@ const ReviewForm = () => {
     }
 
     const deleteInfo = (id) => {
-        const url = "http://localhost:8080/api/delete/review/" + id;
+        const url = "http://localhost:5000/api/delete/review/" + id;
         axios.delete(url)
             .then((request, response) => {
                 console.log(response);
