@@ -50,7 +50,7 @@ const Review = () => {
             return;
         }
 
-        const url = "http://localhost:5000/api/create/review";
+        const url = "https://slak-institute-backend.onrender.com/api/create/review";
         axios.post(url, reviewStore)
             .then((response) => {
                 console.log(response);
@@ -66,7 +66,7 @@ const Review = () => {
 
 
     const showReview = () => {
-        const url = "http://localhost:5000/api/read/review";
+        const url = "https://slak-institute-backend.onrender.com/api/read/review";
         axios.get(url)
             .then((response) => {
                 updateAllReviews(response.data);

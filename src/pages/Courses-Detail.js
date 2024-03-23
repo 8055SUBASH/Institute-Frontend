@@ -79,7 +79,7 @@ const CoursesDetail = () => {
 
         // ----------API--------------------------------------------
 
-        const url = "http://localhost:5000/api/create/courses";
+        const url = "https://slak-institute-backend.onrender.com/api/create/courses";
 
         axios.post(url, uploadedCourses)
             .then((response) => {
@@ -123,7 +123,7 @@ const CoursesDetail = () => {
 
         // ----------API--------------------------------------------
 
-        const url = "http://localhost:5000/api/create/trend";
+        const url = "https://slak-institute-backend.onrender.com/api/create/trend";
 
         axios.post(url, uploadedCourses)
             .then((response) => {
@@ -160,7 +160,7 @@ const CoursesDetail = () => {
 
     const loadDetails = () => {
 
-        const url = "http://localhost:5000/api/list/courses";
+        const url = "https://slak-institute-backend.onrender.com/api/list/courses";
 
         axios.get(url)
             .then((response) => {
@@ -179,7 +179,7 @@ const CoursesDetail = () => {
 
     const loadTrend = () => {
 
-        const url = "http://localhost:5000/api/list/trend";
+        const url = "https://slak-institute-backend.onrender.com/api/list/trend";
 
         axios.get(url)
             .then((response) => {
@@ -197,7 +197,7 @@ const CoursesDetail = () => {
     // -------------courses-delete-------------------------------------------------
 
     const deleteCouses = (id) => {
-        const url = "http://localhost:5000/api/delete/courses/" + id;
+        const url = "https://slak-institute-backend.onrender.com/api/delete/courses/" + id;
         axios.delete(url)
             .then((response) => {
                 alert(response.data);
@@ -230,7 +230,7 @@ const CoursesDetail = () => {
     // ---------------trend-delete-------------------------------------------------
 
     const deleteTrend = (id) => {
-        const url = "http://localhost:5000/api/delete/trend/" + id;
+        const url = "https://slak-institute-backend.onrender.com/api/delete/trend/" + id;
         axios.delete(url)
             .then((response) => {
                 alert(response.data);

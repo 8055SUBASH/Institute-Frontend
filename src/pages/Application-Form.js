@@ -13,7 +13,7 @@ const ApplicationForm = () => {
     }, []);
 
     const showForm = () => {
-        const url = "http://localhost:5000/api/read/contact";
+        const url = "https://slak-institute-backend.onrender.com/api/read/contact";
 
         axios.get(url)
             .then((response) => {
@@ -26,7 +26,7 @@ const ApplicationForm = () => {
     }
 
     const deleteInfo = (id) => {
-        const url = "http://localhost:5000/api/delete/contact/" + id;
+        const url = "https://slak-institute-backend.onrender.com/api/delete/contact/" + id;
         axios.delete(url)
             .then((request, response) => {
                 console.log(response);
