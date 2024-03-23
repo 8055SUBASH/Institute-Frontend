@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17c9cd8b.css",
+    "main.js": "/static/js/main.06da8e36.js",
+    "static/js/592.a40b9df6.chunk.js": "/static/js/592.a40b9df6.chunk.js",
+    "static/media/about.jpg": "/static/media/about.06c8570bbfcca1d9f9a1.jpg",
+    "static/media/mock-interview.jpg": "/static/media/mock-interview.0ad3dc14c7b698df016a.jpg",
+    "static/media/affordable.jpg": "/static/media/affordable.71f74549fce1bae3d04a.jpg",
+    "static/media/lab-support.jpg": "/static/media/lab-support.507c721509a18e29c5b9.jpg",
+    "static/media/online-exam.jpg": "/static/media/online-exam.fda34c7e8301a4826556.jpg",
+    "static/media/preparation.jpg": "/static/media/preparation.127df4110ff1fcb1bd94.jpg",
+    "static/media/remixicon.svg?t=1705244689813": "/static/media/remixicon.d899c616f2ab3f172bc3.svg",
+    "static/media/experts.jpg": "/static/media/experts.aa6741aa38c5c6536723.jpg",
+    "static/media/hero-bg.jpg": "/static/media/hero-bg.57a2b0fe38310ac90c3d.jpg",
+    "static/media/assistance.jpg": "/static/media/assistance.f97add87dfeb9fef0add.jpg",
+    "static/media/interview-question.jpg": "/static/media/interview-question.1cb7bcd6f9c589270d2a.jpg",
+    "static/media/boxicons.svg": "/static/media/boxicons.61829f134e586c0c9e89.svg",
+    "static/media/lab-practice.jpg": "/static/media/lab-practice.d1e4c5d465b9bc27705c.jpg",
+    "static/media/flexible-timings.jpg": "/static/media/flexible-timings.8b2fdad9272cff502307.jpg",
+    "static/media/Logo.png": "/static/media/Logo.1bb11f8d3fbe8aa16058.png",
+    "static/media/remixicon.eot?t=1705244689813": "/static/media/remixicon.ff1ec9ee899cf84e3449.eot",
+    "static/media/remixicon.ttf?t=1705244689813": "/static/media/remixicon.f1ed85ba47411bc8629e.ttf",
+    "static/media/Logo-icon.png": "/static/media/Logo-icon.4f8f03f512b2763250e0.png",
+    "static/media/boxicons.eot": "/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/remixicon.woff?t=1705244689813": "/static/media/remixicon.85d5afadad2b2c04b2fb.woff",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/remixicon.woff2?t=1705244689813": "/static/media/remixicon.7124d0d7809bef5b73ab.woff2",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/boxicons.woff2": "/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "index.html": "/index.html",
+    "main.17c9cd8b.css.map": "/static/css/main.17c9cd8b.css.map",
+    "main.06da8e36.js.map": "/static/js/main.06da8e36.js.map",
+    "592.a40b9df6.chunk.js.map": "/static/js/592.a40b9df6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17c9cd8b.css",
+    "static/js/main.06da8e36.js"
+  ]
+}
